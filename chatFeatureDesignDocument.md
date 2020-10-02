@@ -51,7 +51,7 @@ Each matchedcase document will have a property called conversation which will co
 * ### **GET: /conversation/caseId**
 
     **Request parameters:**
-    * numOfmessages: number
+    * numOfMessages: number
 
         optional, how many messages do you want, if not included, give a default number of messages starting from the newest message
     * timeStamp: timestamp
