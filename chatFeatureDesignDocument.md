@@ -53,10 +53,10 @@ Each matchedcase document will have a property called conversation which will co
     **Request parameters:**
     * numOfMessages: number
 
-        optional, how many messages do you want, if not included, give a default number of messages starting from the newest message
+        required, how many messages do you want
     * timeStamp: timestamp
 
-        optional, this is for pagination purpose, if not included, give messages starting from the newest message, if included, give messages from this timestamp provided
+        required, this is for pagination purpose. use "" if you just want latest messages, use a timestamp if you want messages newer than that timestamp
 
     **Response:**
 
