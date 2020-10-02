@@ -81,3 +81,9 @@ Each matchedcase document will have a property called conversation which will co
     **Description:**
 
     This api allows you to retrieve messages by caseId.
+
+* ### **DELETE: /conversation/caseId**
+
+    **Response:**
+
+    200 if success, 400 if fail
