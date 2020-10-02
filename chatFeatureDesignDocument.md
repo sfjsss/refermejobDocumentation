@@ -66,13 +66,11 @@ Each matchedcase document will have a property called conversation which will co
                     author: who created this message,
                     content: message content,
                     createdAt: timestamp,
-                    caseId: case id
                 },
                 {
                     author: who created this message,
                     content: message content,
                     createdAt: timestamp,
-                    caseId: case id
                 },
                 ...
             ]
